@@ -1,3 +1,4 @@
+```
 istioctl proxy-config endpoints $INGRESS_POD.istio-system --cluster 'outbound|80||frontend.online-boutique.svc.cluster.local' -o json
 [
     {
@@ -99,3 +100,4 @@ istioctl proxy-config endpoints $INGRESS_POD.istio-system --cluster 'outbound|80
         ]
     }
 ]
+```
